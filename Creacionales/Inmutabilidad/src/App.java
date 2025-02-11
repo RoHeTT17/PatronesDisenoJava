@@ -1,7 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
        
-
     // Crear jugador inicial
     Player player = new Player("Carlos", 0, 1);
     System.out.println("Estado inicial:");
@@ -27,6 +26,15 @@ public class App {
     player.displayState();
 
     System.out.println("-----------------------------------------------");
+    System.out.println("------------------USANDO RECORDS---------------");
+    System.out.println("-----------------------------------------------");
+
+    RecordPlayer playeRecord = new RecordPlayer("Roger", 100, 10);
+    System.out.println("Estado inicial:");
+    System.out.println(playeRecord);
+
 
     }
+
+
 }

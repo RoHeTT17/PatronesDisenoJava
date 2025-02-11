@@ -1,6 +1,5 @@
 public class Player {
 
-
     private final String name;
     private final int score;
     private final int level;
@@ -43,6 +42,4 @@ public class Player {
 
     }
     
-
-
 }
